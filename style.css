@@ -4,6 +4,17 @@ h1 {
   color: #0066ff
 }
 
+.menu dropdown a {
+  line-height: inherit;
+  color: #1779ba;
+  text-decoration: none;
+  cursor: pointer; }
+  a:hover, a:focus {
+
+    color: #1468a0; }
+  a img {
+    border: 0; }
+
 /* centered logo */
 
 .topbar-center-logo {
@@ -38,21 +49,22 @@ h1 {
   vertical-align: text-top;
 }
 
+
 /* Menu */
 
 .dropdown.menu .submenu {
     border: 0px solid #cacaca;
-    background-color: #cccccc;
+    background-color: #2c3840;
 }
 
 .dropdown.menu .is-active > a {
   background: transparent;
-  color: #000000; }
+  color: #FFFFFF; }
 
 .menu .menu-text {
     color: #FFFFFF;
    }
 
-.row {
- padding-top: 30px;
+.dropdown.menu .has-submenu.is-down-arrow>a::after {
+  top: 20px;
 }

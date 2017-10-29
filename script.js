@@ -20,7 +20,23 @@ $(document).ready(function() {
      click: function(){
        $('.button').css("background-color", "lightgreen");
      }
-/*    console.log('The paragraph was clicked.'); */
+
   });
+
+
+  $('.thumbnail').on({
+    mouseenter: function(){
+      $('.thumbnail').css("border", "lightgray");
+    },
+    mouseleave: function(){
+       $('.thumbnail').css("border", "lightblue");
+     },
+     click: function(){
+       $('.thumbnail').css("border", "lightgreen");
+     }
+
+  });
+
+
 
 });
